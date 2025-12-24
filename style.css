@@ -1,0 +1,57 @@
+/* Set Font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sekuya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0 24px;
+    box-sizing: border-box;
+    font-family: "Sekuya", system-ui;
+}
+
+body {
+    background: linear-gradient(135deg, #f2f6fb 0%, #ffffff 100%);
+    min-height: 100vh;
+    line-height: 1.6;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav-bar {
+    height: 80px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+#nav-bar .logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #e0f2fe;
+}
+
+#nav-bar .nav-bar-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+#nav-bar .nav-bar-links li a {
+    text-decoration: none;
+    color: #cbd5f5;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#nav-bar .nav-bar-links li a:hover {
+#nav-bar .nav-bar-links li a.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
